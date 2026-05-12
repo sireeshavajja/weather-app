@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClimateSense</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>🌦️ ClimateSense</h1>
+
+  <!-- Search -->
+  <div class="search-box">
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Search</button>
+  </div>
+
+  <!-- Weather Card -->
+  <div class="weather-card" id="weather">
+    <h2 id="cityName">--</h2>
+    <img id="icon" src="" alt="">
+    <p id="temp">-- °C</p>
+    <p id="desc">--</p>
+  </div>
+
+  <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
